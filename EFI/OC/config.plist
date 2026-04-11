@@ -737,7 +737,7 @@
 				<key>Comment</key>
 				<string>USBToolBox.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBToolBox</string>
 				<key>MaxKernel</key>
@@ -755,7 +755,7 @@
 				<key>Comment</key>
 				<string>UTBMap.kext</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -2067,7 +2067,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 revblock=media -v debug=0x100 alcid=11</string>
+				<string>keepsyms=1 revblock=media -v debug=0x100 alcid=11 amdgpu_vram_limit=2048</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
