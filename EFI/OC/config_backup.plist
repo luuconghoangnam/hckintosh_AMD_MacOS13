@@ -42,7 +42,7 @@
 				<key>Comment</key>
 				<string>SSDT-HPET.aml</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
 			</dict>
@@ -554,17 +554,6 @@
 			<dict>
 				<key>built-in</key>
 				<data>AQ==</data>
-				<key>comment</key>
-				<string>Fix USB 3.0 controller built-in status</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x8,0x1)/Pci(0x0,0x4)</key>
-			<dict>
-				<key>built-in</key>
-				<data>AQ==</data>
-				<key>class-code</key>
-				<data>MAMMAA==</data>
-				<key>name</key>
-				<string>XHC1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x6)/Pci(0x0,0x0)</key>
 			<dict>
@@ -737,7 +726,7 @@
 				<key>Comment</key>
 				<string>USBToolBox.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBToolBox</string>
 				<key>MaxKernel</key>
@@ -755,7 +744,7 @@
 				<key>Comment</key>
 				<string>UTBMap.kext</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -2067,7 +2056,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 revblock=media -v debug=0x100 alcid=11 amdgpu_vram_limit=2048 -vi2c-force-polling</string>
+				<string>keepsyms=1 revblock=media -v debug=0x100 alcid=11</string>
 				<key>csr-active-config</key>
 				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
